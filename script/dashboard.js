@@ -14,7 +14,7 @@ $(document).ready(function () {
             }),
             dataType: 'json',
             success: function (data) {
-                location.replace('bookings.php')
+                location.replace('adminview.php')
             },
             error: function (err) {}
         })
